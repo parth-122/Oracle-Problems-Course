@@ -1,0 +1,61 @@
+Q1.How many data types available in oracle database?
+
+A1. 1.Number 2.Char 3.Date 4.Row 5.Row ID 6.Long
+
+Q2.In Which data type we can store upto 2gb of data in oracle?
+
+A2.Long raw
+
+Q3.What data type is used to store image
+
+A3.Long raw & raw
+
+Q4.Is it possible to store video in oracle?
+
+A4.Using LOB or BFILE for storage
+
+Q5.Difference Between varchar and varchar2 data types?
+
+A5.
+
+1.VARCHAR
+
+-Used to store the character values
+-It is a variable length data type
+-Also Called Dynamic Data type
+-Maximum Length (4000 bytes)
+
+2.VARCHAR2
+
+-SAME AS THE VARCHAR 
+
+**MAIN DIFFERENCE IS:-
+
+VARCHAR:-ANSI STANDARD
+VARCHAR2:-ORACLE STANDARD
+
+6.What is RAW data type + 7.What is BLOB data type?
+
+-to store image/video/audio files in the form of binary format
+
+LOB DT(Large Object)
+
+i)BLOB(binary LOB)
+
+-To store Image/Audio/Video files in the form of binary format
+-4 gb
+
+ii)CLOB(CHARACTER LOB)
+
+-To store no-unicode char's
+-4gb
+
+iii)nCLOB(national character large object)
+
+-To store unicode char's
+-4gb
+
+8. Can we modify data type in live software?
+
+-Yes
+

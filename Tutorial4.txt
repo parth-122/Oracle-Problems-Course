@@ -1,0 +1,8 @@
+1) How many data types available in oracle database
+2) In which data type we can store upto 2gb of data  in oracle
+3) what data type is used to store image
+4) Is it possible to store video in oracle 
+5) Difference between varchar and varchar2 data types
+6) What is RAW data type?
+7) What is BLOB data type?
+8) Can we modify data type in live software  
