@@ -1,0 +1,29 @@
+Suppose we have table called employee table with column like:-
+
+1.id number(4) primary key;
+2.name varchar2(10);
+
+
+~1'st Operation~ 
+
+For Adding Column
+
+alter table employee add  address varchar2(10);
+
+~2'nd Operation~
+
+For Modify the data type
+
+alter table employee modify name varchar2(20);
+
+~3'rd Operation~
+
+For rename the column 
+
+alter table employee rename column name to first_name;
+
+~4'th Operation~
+
+alter table employee drop column first_name;
+
+
