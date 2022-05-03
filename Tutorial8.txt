@@ -1,0 +1,6 @@
+﻿--------------------------------------------------
+Oracle SQL Practice Question for Rename table table : 
+--------------------------------------------------
+1) Rename employee table with employee_1
+2) rename department table with department_1
+3) What all the object we can rename using “Raname command”
