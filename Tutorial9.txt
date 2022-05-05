@@ -1,0 +1,12 @@
+Points to Note on Rename Operation
+
+1.Rename operation can be performed to rename Table/Synonym/View/Sequance
+2.To rename a table/object,you must either be the DB owner or the table owner
+3.If there are any check constraints or triggers on the table 
+or
+there is a view of foreign key that references the table and
+you attempts to rename,it will generate an error.
+
+#Syntax of Rename Operation
+
+Rename <ExistingTableName> to <NewTableName>
